@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#0097A7</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="accent">#FFEB3B</color>
+    <color name="accent_translucent">#80FFEB3B</color>
+    <color name="accent_bright">#FFF493</color>
+    <color name="color_button_disenabled">#d6d8d9</color>
+    <!--listview 相关-->
+    <color name="color_dark_grey">#bababa</color>
+    <color name="color_List_Item_Text_Selected">#FFFFFF</color>
+    <color name="color_List_Item_Text_Normal">#000000</color>
+    <color name="button_normal">#98D061</color>
+
+    <color name="colorSelected">#e9c364</color>
+    <color name="colorDeselected">#fdfdfd</color>
+</resources>

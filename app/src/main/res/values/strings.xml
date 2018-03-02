@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">StockAnalysis</string>
+    <string name="title_main">FinancialAnalysis</string>
+    <string name="equipment_usage">LinYuan</string>
+    <string name="chicken_blood_slogan">linyuan@skyray-instrument.com</string>
+    <string name="title_activity_report">业绩观察</string>
+    <string name="title_activity_diagnose">诊股专家</string>
+    <string name="e_ForeCast">业绩预告</string>
+    <string name="e_FastReport">业绩快报</string>
+    <string name="e_Report">业绩报表</string>
+
+</resources>

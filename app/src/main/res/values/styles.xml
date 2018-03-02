@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 设置activity切换动画 -->
+        <item name="android:windowAnimationStyle">@style/activityAnimation</item>
+        <item name="toolbarNavigationButtonStyle">@style/myToolbarNavigationButtonStyle</item>
+    </style>
+
+    <style name="myToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:padding">@dimen/margin_horizontal_large</item>
+        <item name="android:scaleType">fitStart</item>
+    </style>
+
+    <!-- animation 样式 -->
+    <style name="activityAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_right_out</item>
+    </style>
+
+
+    <style name="MyMenuTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--导航到主页面按钮样式-->
+    <style name="FloatingActionButtonStyle">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:layout_gravity">end|bottom|right</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--列表控件内容和表头样式-->
+    <style name="list_item_text_style">
+        <item name="android:textSize">@dimen/nh3n_textSize</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="list_item_header_text_style" parent="list_item_text_style">
+        <item name="android:textColor">@color/color_List_Item_Text_Selected</item>
+    </style>
+
+    <!--tablayout样式-->
+    <style name="nh3nTabLayout" parent="Base.Widget.Design.TabLayout" >
+        <item name="tabTextAppearance">@style/nh3ntabTextAppearance</item>
+    </style>
+    <style name="nh3ntabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <!--设置界面菜单导航样式-->
+    <style name="SettingNavigationView" parent="Widget.Design.NavigationView">
+        <item name="itemTextAppearance">@style/SettingNavigationViewText</item>
+        <!--高低版本分别设置菜单项高度-->
+        <!--<item name="android:listPreferredItemHeightSmall">128dp</item>-->
+        <item name="listPreferredItemHeightSmall">64dp</item>
+    </style>
+
+    <style name="SettingNavigationViewText" parent="android:TextAppearance">
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!--各个页面样式-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
